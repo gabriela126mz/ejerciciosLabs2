@@ -1,0 +1,92 @@
+
+https://vitejs.dev/guide/
+
+npm create vite@latest
+ponemos nombre del proyecto, react, JavaScript +SWC, 
+
+cd myshop
+npm install (nos construye el proyecto)
+npm run dev
+copiamos la url que nos muestra la terminal
+ ➜  Local:   http://127.0.0.1:5173/
+ ➜  Network: use --host to expose
+ ➜  press h + enter to show help
+
+ al crear el proyecto con vite tiene un live server incorporado
+ 
+
+ arrancamos con npm start??
+
+ react solo renderiz jsx no html
+ solo renderiza componentes de react
+
+
+ solo podemos devolver un elemento jsx
+
+React.fragment: es un componente React que sirve para envolver otros componentes con la idea de que no aparezca después en nuestro árbol de renderizado
+
+para que el lenguaje sea fluido usamos JSX y el compilador SWC
+esto nos ayuda a transformar el html y js puro en sintaxis mas amigable
+
+vamos a este compilador
+https://swc.rs/playground
+el compilador traduce los elementos de React con sintaxis jsx los traduce de otra manera
+
+
+======
+P3
+StrincMode es una herramienta que nos ofrece react solo en momentos de desarrollo
+nos ayuda a detectar errores
+
+
+<>
+Esto es lo mismo que React.fragment   (elemento que engloba mas de un elemento RJX)
+</>
+
+sino se renderiza bien siempre poner entre llaves
+{createProfile()};
+creamos el fichero Profile.jsx
+
+Prots, se añaden a los componentes,estos son objetos de configuracion
+
+
+========
+p4
+npm create vite@latest
+
+Creamos nuevo componente llamado MyComponent.jsx creamos el archivo (como siempre)
+
+Los nombres siempre debes de ser camelcase (MyComponent)
+
+
+===========
+p5
+Las propiedas permiten la comunicación entre componentes de manera unidireccional y vertical(de padres a hijos)
+
+
+Es importante pasar funciones como props 
+Las funciones com props lo que conseguimos es que la comunicacion sea bidireccional
+padre hijo, hijo padre
+Las props son inmutables
+
+
+props
+palabra reservada key
+item es como un hijo, un item tambien puede ser un id
+prop children tambien es importante
+=======
+
+p6
+
+estado: es un objeto especial que contiene datos relevantes para un componente.
+Su uso permite el manejo de dichos datos de manera dinámica y es inmutable hasta
+que el componente se vuelva a renderizar de nuevo
+El estado es "inmutable" hasta que el componente se vuelva a renderizar de nuevo
+El estado es Local
+
+Las funciones manejadoras se pueden reutilizar si son del mismo tipo
+
+
+
+npm install react-bootstrap bootstrap
+npm install cdbreact

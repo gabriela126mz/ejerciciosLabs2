@@ -1,0 +1,56 @@
+
+.container { 
+    max-width: 400px; 
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: var(--container-background);
+}
+
+h2 {
+    color: var(--text);
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+.input {
+    background-color: var(--background); 
+    color: var(-text);
+    border: 1px solid var(--border);
+    padding: 8px;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+span {
+    margin-right: 4px;
+    color: var(text);
+}
+
+.button {
+    background-color: var(--background);
+    color: var(-text);
+    border: 1px solid var(--border);
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.completed {
+    text-decoration: Line-through;
+    margin-left: 8px;
+}
+
+.light{
+    --container-background: #f4f4f4;
+    --background: #f4f4f4;
+    --text: #333;
+    --border: #333;
+}
+
+.dark{
+    --container-background: #444;
+    --background: #444;
+    --text: #fff;
+    --border: #fff;
+}
